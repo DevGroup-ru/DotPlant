@@ -8,6 +8,7 @@
         "issues": "http://redmine.devgroup.su/projects/dotplant2/issues",
         "source": "https://github.com/DevGroup-ru/dotplant"
     },
+    "minimum-stability": "dev",
     "license": "GPL-3.0+",
     "authors": [
         {
