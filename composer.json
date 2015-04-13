@@ -3,7 +3,7 @@
     "description": "DotPlant2 is an open-source E-Commerce CMS for shops buld with Yii2",
     "keywords": ["yii", "yii2", "dotplant", "dotplant2", "yii2 shop", "yii shop", "yii cms", "yii2 cms", "yii2 e-commerce", "yii e-commerce"],
     "homepage": "http://dotplant.ru/",
-    "type": "project",
+    "type": "metapackage",
     "support": {
         "issues": "http://redmine.devgroup.su/projects/dotplant2/issues",
         "source": "https://github.com/DevGroup-ru/dotplant"
