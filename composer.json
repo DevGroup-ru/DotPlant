@@ -44,6 +44,7 @@
         "bower-asset/jquery.inview": "dev-master",
         "florianv/swap": "~2.0@dev",
         "phpoffice/phpexcel": "1.8.0",
-        "creocoder/yii2-flysystem": "~0.8.0"
+        "creocoder/yii2-flysystem": "~0.8.0",
+        "symfony/process": "3.0.*@dev"
     }
 }
