@@ -34,6 +34,7 @@
         "kartik-v/yii2-icons": "dev-master",
         "kartik-v/yii2-helpers": "dev-master",
         "kartik-v/yii2-editable": "dev-master",
+        "kartik-v/yii2-builder": "~1.6.0",
         "vova07/yii2-imperavi-widget": "~1.2.2",
         "devgroup/yii2-tag-dependency-helper": "0.0.1",
         "devgroup/yii2-ace-widget": "~1.0",
