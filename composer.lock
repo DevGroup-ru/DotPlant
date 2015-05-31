@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "66ed0c107d26ecae125cd84973479871",
+    "hash": "dee4514f8a7b03def5e0f0bd997045ab",
     "packages": [
         {
             "name": "bower-asset/ace-builds",
@@ -1372,12 +1372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "49ed8dd5e8280d738aebbdef3af86acb4d266e35"
+                "reference": "93a7318ad11c7489b2b125d807f07795d9ec1d87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/49ed8dd5e8280d738aebbdef3af86acb4d266e35",
-                "reference": "49ed8dd5e8280d738aebbdef3af86acb4d266e35",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/93a7318ad11c7489b2b125d807f07795d9ec1d87",
+                "reference": "93a7318ad11c7489b2b125d807f07795d9ec1d87",
                 "shasum": ""
             },
             "type": "library",
@@ -1412,7 +1412,7 @@
                 "progress",
                 "upload"
             ],
-            "time": "2015-05-30 19:57:48"
+            "time": "2015-05-31 07:03:25"
         },
         {
             "name": "kartik-v/bootstrap-popover-x",
@@ -3254,6 +3254,61 @@
             "time": "2015-05-19 12:50:29"
         },
         {
+            "name": "leafo/scssphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "3508eecb88cc587a3630c1bc47b17055c6e82d34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/3508eecb88cc587a3630c1bc47b17055c6e82d34",
+                "reference": "3508eecb88cc587a3630c1bc47b17055c6e82d34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classmap.php"
+                ],
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.net/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "time": "2015-05-20 16:34:31"
+        },
+        {
             "name": "league/flysystem",
             "version": "dev-master",
             "source": {
@@ -3338,22 +3393,71 @@
             "time": "2015-05-30 16:58:20"
         },
         {
-            "name": "phly/http",
-            "version": "0.12.0",
+            "name": "league/flysystem-replicate-adapter",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phly/http.git",
-                "reference": "db3de333f75086a9571be7ee1e1d4583df6f0fe5"
+                "url": "https://github.com/thephpleague/flysystem-replicate-adapter.git",
+                "reference": "f1ad22787c527e0d9daee225296fee3a9e3333a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/db3de333f75086a9571be7ee1e1d4583df6f0fe5",
-                "reference": "db3de333f75086a9571be7ee1e1d4583df6f0fe5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-replicate-adapter/zipball/f1ad22787c527e0d9daee225296fee3a9e3333a1",
+                "reference": "f1ad22787c527e0d9daee225296fee3a9e3333a1",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Replicate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for Replica's",
+            "time": "2015-01-21 22:20:16"
+        },
+        {
+            "name": "phly/http",
+            "version": "0.13.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phly/http.git",
+                "reference": "1c26fa60f7cffab06e21b1fc3ef0666b85af1cf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phly/http/zipball/1c26fa60f7cffab06e21b1fc3ef0666b85af1cf9",
+                "reference": "1c26fa60f7cffab06e21b1fc3ef0666b85af1cf9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.8",
-                "psr/http-message": "^0.10"
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "~1.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -3387,7 +3491,8 @@
             "keywords": [
                 "http"
             ],
-            "time": "2015-04-14 15:25:10"
+            "abandoned": "zendframework/zend-diactoros",
+            "time": "2015-05-20 21:05:27"
         },
         {
             "name": "phpoffice/phpexcel",
@@ -3448,17 +3553,20 @@
         },
         {
             "name": "psr/http-message",
-            "version": "0.10.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "9723465b3e7c8ecb0436f066bfb8a13e1bac1789"
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/9723465b3e7c8ecb0436f066bfb8a13e1bac1789",
-                "reference": "9723465b3e7c8ecb0436f066bfb8a13e1bac1789",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -3468,7 +3576,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src"
+                    "Psr\\Http\\Message\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3490,7 +3598,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-04-13 14:20:01"
+            "time": "2015-05-04 20:22:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4110,7 +4218,8 @@
         "bower-asset/jquery.inview": 20,
         "florianv/swap": 20,
         "symfony/process": 20,
-        "knplabs/packagist-api": 20
+        "knplabs/packagist-api": 20,
+        "leafo/scssphp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

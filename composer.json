@@ -50,6 +50,7 @@
         "league/flysystem-replicate-adapter": "~1.0",
         "symfony/process": "3.0.*@dev",
         "knplabs/packagist-api": "1.*@dev",
-        "kartik-v/yii2-dropdown-x": "~1.2.0"
+        "kartik-v/yii2-dropdown-x": "~1.2.0",
+	"leafo/scssphp": "dev-master"
     }
 }
