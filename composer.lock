@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dee4514f8a7b03def5e0f0bd997045ab",
+    "hash": "3dd2ba6bddc90c0a437d195a8ffc41b5",
     "packages": [
         {
             "name": "bower-asset/ace-builds",
@@ -72,6 +72,36 @@
                 "mobile-first",
                 "responsive",
                 "web"
+            ]
+        },
+        {
+            "name": "bower-asset/bootstrap-hover-dropdown",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CWSpear/bootstrap-hover-dropdown.git",
+                "reference": "e8bc99836b5ab50816786bbaba2dd2c4d6a0d094"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CWSpear/bootstrap-hover-dropdown/zipball/e8bc99836b5ab50816786bbaba2dd2c4d6a0d094",
+                "reference": "e8bc99836b5ab50816786bbaba2dd2c4d6a0d094",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=3.0.0,<4.0.0",
+                "bower-asset/jquery": ">=1.9.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./bootstrap-hover-dropdown.js"
+            },
+            "description": "An unofficial Bootstrap plugin to enable Bootstrap dropdowns to activate on hover and provide a nice user experience.",
+            "keywords": [
+                "bootstrap",
+                "dropdowns",
+                "hover",
+                "twitter"
             ]
         },
         {
@@ -1372,12 +1402,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "93a7318ad11c7489b2b125d807f07795d9ec1d87"
+                "reference": "c66c2ac8bd11860c3ff41c6c3b52ab69dbb01fd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/93a7318ad11c7489b2b125d807f07795d9ec1d87",
-                "reference": "93a7318ad11c7489b2b125d807f07795d9ec1d87",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/c66c2ac8bd11860c3ff41c6c3b52ab69dbb01fd0",
+                "reference": "c66c2ac8bd11860c3ff41c6c3b52ab69dbb01fd0",
                 "shasum": ""
             },
             "type": "library",
@@ -1412,7 +1442,7 @@
                 "progress",
                 "upload"
             ],
-            "time": "2015-05-31 07:03:25"
+            "time": "2015-05-31 08:03:02"
         },
         {
             "name": "kartik-v/bootstrap-popover-x",
@@ -3827,12 +3857,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "bfddab3e5db40f865904dde66cca2e8b5bd81135"
+                "reference": "a8498617882b9d2fb2377f176420c667d4eac276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/bfddab3e5db40f865904dde66cca2e8b5bd81135",
-                "reference": "bfddab3e5db40f865904dde66cca2e8b5bd81135",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a8498617882b9d2fb2377f176420c667d4eac276",
+                "reference": "a8498617882b9d2fb2377f176420c667d4eac276",
                 "shasum": ""
             },
             "require": {
@@ -3907,7 +3937,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-05-29 14:42:32"
+            "time": "2015-05-31 10:09:16"
         },
         {
             "name": "yiisoft/yii2-authclient",
