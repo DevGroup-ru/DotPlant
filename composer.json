@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.5",
         "yiisoft/yii2": "dev-master",
         "yiisoft/yii2-bootstrap": "dev-master",
         "yiisoft/yii2-swiftmailer": "dev-master",
