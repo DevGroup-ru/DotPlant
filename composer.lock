@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f60d6814588a66c6ca12de51ba2e9286",
+    "hash": "7bdee505968bc511e920d101e05e8704",
     "packages": [
         {
             "name": "bower-asset/ace-builds",
@@ -423,16 +423,16 @@
         },
         {
             "name": "bower-asset/slick-carousel",
-            "version": "1.3.15",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kenwheeler/slick.git",
-                "reference": "ef16dc13ebdd0d0a8776b24c5cf19b3178d0e879"
+                "reference": "f73f1e4647c5c4d3fd7ed6c5efea64c10340d2e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kenwheeler/slick/zipball/ef16dc13ebdd0d0a8776b24c5cf19b3178d0e879",
-                "reference": "ef16dc13ebdd0d0a8776b24c5cf19b3178d0e879",
+                "url": "https://api.github.com/repos/kenwheeler/slick/zipball/f73f1e4647c5c4d3fd7ed6c5efea64c10340d2e3",
+                "reference": "f73f1e4647c5c4d3fd7ed6c5efea64c10340d2e3",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +442,9 @@
             "extra": {
                 "bower-asset-main": [
                     "slick/slick.min.js",
-                    "slick/slick.css"
+                    "slick/slick.css",
+                    "slick/slick-theme.css",
+                    "slick/fonts/*"
                 ],
                 "bower-asset-ignore": [
                     "**/.*",
