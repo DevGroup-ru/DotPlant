@@ -37,7 +37,7 @@
         "kartik-v/yii2-builder": "~1.6.0",
         "kartik-v/yii2-widget-typeahead": "~1.0.0",
         "vova07/yii2-imperavi-widget": "~1.2.2",
-        "devgroup/yii2-tag-dependency-helper": "0.0.2",
+        "devgroup/yii2-tag-dependency-helper": "0.0.3",
         "devgroup/yii2-ace-widget": "~1.0",
         "devgroup/yii2-jsoneditor": "~1.0",
         "devgroup/yii2-dropzone": "~1.0",
