@@ -28,6 +28,7 @@
         "devgroup/yii2-multilingual": "dev-master",
         "devgroup/yii2-intent-analytics": "dev-master",
         "devgroup/yii2-deferred-tasks": "dev-master",
-        "devgroup/yii2-data-structure-tools": "dev-master"
+        "devgroup/yii2-data-structure-tools": "dev-master",
+        "dmstr/yii2-migrate-command": "~0.2"
     }
 }
