@@ -29,6 +29,7 @@
         "devgroup/yii2-intent-analytics": "dev-master",
         "devgroup/yii2-deferred-tasks": "dev-master",
         "devgroup/yii2-data-structure-tools": "dev-master",
+        "devgroup/yii2-extensions-manager": "dev-master",
         "dmstr/yii2-migrate-command": "~0.2",
         "dmstr/yii2-adminlte-asset": "2.*"
     }
