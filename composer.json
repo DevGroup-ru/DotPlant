@@ -32,7 +32,7 @@
         "devgroup/yii2-data-structure-tools": "dev-master",
         "devgroup/yii2-extensions-manager": "dev-master",
         "devgroup/yii2-users-module": "dev-master",
-        "devgroup/yii2-polyglot": "dev-master",
+        "devgroup/yii2-polyglot": "~1.0",
         "dmstr/yii2-migrate-command": "~0.3",
         "dmstr/yii2-adminlte-asset": "~2.2"
     }
