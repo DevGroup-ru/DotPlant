@@ -41,7 +41,7 @@
         "devgroup/yii2-ace-widget": "~1.0",
         "devgroup/yii2-jsoneditor": "~1.0",
         "devgroup/yii2-dropzone": "~1.0",
-        "devgroup/yii2-jstree-widget": "dev-master",
+        "devgroup/yii2-jstree-widget": "~0.1.0",
         "bower-asset/slick-carousel": "~1.5.5",
         "bower-asset/jquery.inview": "dev-master",
         "bower-asset/ladda": "0.9.8",
