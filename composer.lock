@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea2f06fd812f1f2044198763e2ae37f2",
-    "content-hash": "7abbcf24f8c62a6c0fc23224f0c2e2e3",
+    "hash": "167b68ff720aa98c71230643daa242af",
+    "content-hash": "4e9da548a9b4f4c3d6367cf336f3c32b",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -397,7 +397,8 @@
             },
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2015-12-31 08:33:51"
         },
         {
             "name": "cebe/markdown",
@@ -908,16 +909,16 @@
         },
         {
             "name": "devgroup/yii2-multilingual",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DevGroup-ru/yii2-multilingual.git",
-                "reference": "cb59f947e671ce2df67542670b4e27346e19dfe9"
+                "reference": "ecc6e0ab3d00f805e342a435cf159f182b28d54f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DevGroup-ru/yii2-multilingual/zipball/cb59f947e671ce2df67542670b4e27346e19dfe9",
-                "reference": "cb59f947e671ce2df67542670b4e27346e19dfe9",
+                "url": "https://api.github.com/repos/DevGroup-ru/yii2-multilingual/zipball/ecc6e0ab3d00f805e342a435cf159f182b28d54f",
+                "reference": "ecc6e0ab3d00f805e342a435cf159f182b28d54f",
                 "shasum": ""
             },
             "require": {
@@ -927,7 +928,7 @@
                 "yiisoft/yii2": "^2.0.6"
             },
             "require-dev": {
-                "devgroup/dotplant-dev": "*"
+                "devgroup/dotplant-dev": "~1.0.0"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -956,7 +957,7 @@
                 "multilingual",
                 "yii2"
             ],
-            "time": "2016-01-31 10:26:55"
+            "time": "2016-05-27 07:36:13"
         },
         {
             "name": "devgroup/yii2-polyglot",
@@ -2355,7 +2356,6 @@
         "dotplant/monster": 20,
         "devgroup/yii2-admin-utils": 20,
         "devgroup/yii2-frontend-utils": 20,
-        "devgroup/yii2-multilingual": 20,
         "devgroup/yii2-intent-analytics": 20,
         "devgroup/yii2-deferred-tasks": 20,
         "devgroup/yii2-data-structure-tools": 20,
