@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "yiisoft/yii2": "~2.0.11",
+        "yiisoft/yii2": "~2.0.6",
         "dotplant/monster": "dev-master",
         "dotplant/entity-structure": "dev-master",
         "dotplant/content": "dev-master",
