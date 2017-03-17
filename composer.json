@@ -24,7 +24,7 @@
         "yiisoft/yii2-authclient": "dev-master",
         "yiisoft/yii2-imagine": "dev-master",
         "kartik-v/yii2-widgets": "~3.4.0",
-        "kartik-v/yii2-krajee-base": "~1.7.6",
+        "kartik-v/yii2-krajee-base": "~1.8.8",
         "kartik-v/yii2-dynagrid": "~1.4.2",
         "kartik-v/yii2-datecontrol": "dev-master",
         "kartik-v/yii2-context-menu": "dev-master",
